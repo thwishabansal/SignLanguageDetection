@@ -13,10 +13,11 @@ Sign language, a crucial form of communication for the deaf community, faces cha
 Developing effective tools for sign language recognition remains challenging. This study aims to detect five distinct alphabets within sign language to improve recognition for individuals with hearing impairments.
 
 # Methodology
-## Setup: Initial coding phase in Google Colab, transitioned to Jupyter Notebook for better data management. Images captured using a standard iPhone camera.
-## Dataset: Images of vowels captured from 20 angles against a clean white background. Data augmentation techniques applied to expand the dataset size. Dataset divided into training (80%) and testing (20%) sets.
-## CNN Architecture: Tested architectures include VGG-16, GoogleNet, ResNet, NIN, and a simple CNN model. GoogleNet and the simple CNN showed better efficiency and compatibility.
-## Challenges
+Setup: Initial coding phase in Google Colab, transitioned to Jupyter Notebook for better data management. Images captured using a standard iPhone camera.
+Dataset: Images of vowels captured from 20 angles against a clean white background. Data augmentation techniques applied to expand the dataset size. Dataset divided into training (80%) and testing (20%) sets.
+CNN Architecture: Tested architectures include VGG-16, GoogleNet, ResNet, NIN, and a simple CNN model. GoogleNet and the simple CNN showed better efficiency and compatibility.
+
+## Challenges**
 Unequal class distribution.
 Grayscale images compatibility.
 Long training times for extensive architectures like ResNet and NIN.
